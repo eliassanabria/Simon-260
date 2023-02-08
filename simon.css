@@ -1,26 +1,25 @@
 
-.button-top-right{}
-.button-top-left{}
-.button-bottom-left{
-    background-color: yellow;
-    border: rgb(226, 232, 53);
-    border-radius: 0 100% 0 0;
-    margin: 20px 0 0 0;
-}
-.button-bottom-right{
-    background-color: blue;
-    border: thick solid #1b0e64;
-    border-radius: 0 0 100% 0;
-    margin: 0 35px 30px 0;
-}
-.button-container {
-    grid-gap: 20px;
-    display: grid;
-    gap: 20px;
-    grid-template-columns: 1fr 1fr;
-    height: 100%;
-    width:100%
-}
+.btn {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    display: inline-block;
+    margin: 8px;
+    border-radius: 50%;
+    
+  }
+  #red {
+    background-color: rgba(255, 0, 0, 0.5);
+  }
+  #green {
+    background-color: rgba(0, 128, 0, 0.5);
+  }
+  #yellow {
+    background-color: rgba(255, 255, 0, 0.5);
+  }
+  #blue {
+    background-color: rgba(0, 0, 255, 0.5);
+  }
 
 .Game-Board{
     position: relative;
