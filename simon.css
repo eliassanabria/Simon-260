@@ -24,3 +24,11 @@
 .Game-Board{
     position: relative;
 }
+table {
+  border-collapse: separate;
+  border-spacing: 2px;
+}
+td, th {
+  border: 1px solid black;
+  padding: 8px;
+}

@@ -2,10 +2,12 @@
 <html>
   <head>
     <meta charset="UTF-8" />
+    <!-- Tell browsers not to scale the viewport automatically -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Simon Game</title>
+    <title>Simon Scores</title>
     <link rel="icon" href="favicon.ico" />
     <link rel="stylesheet" href="simon.css">
+
   </head>
   <body>
     <header>
@@ -20,20 +22,33 @@
         </nav>
     </header>
     <div>
-      <!-- Add content here -->
-      <h3>Player: <i class="Player_Name"> Mystery Player</i></h3>
-      <h3><b>Score: </b> <small class="Game_Score"> --</small></h3>
-      <button class="Reset-Btn">Reset</button>
-      <div class="Game-Board">
-        <div class="game">
-            <div id="button-container">
-              <div class="btn" id="red"></div>
-              <div class="btn" id="green"></div>
-              <div class="btn" id="yellow"></div>
-              <div class="btn" id="blue"></div>
-            </div>
-        </div>
-      </div>
+        <table>
+            <thead>
+              <tr>
+                <th>Username</th>
+                <th>Date</th>
+                <th>High Score</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>User1</td>
+                <td>01/01/2023</td>
+                <td>100</td>
+              </tr>
+              <tr>
+                <td>User2</td>
+                <td>01/02/2023</td>
+                <td>200</td>
+              </tr>
+              <tr>
+                <td>User3</td>
+                <td>01/03/2023</td>
+                <td>300</td>
+              </tr>
+            </tbody>
+          </table>
+          
     </div>
     <footer>
         <hr />
